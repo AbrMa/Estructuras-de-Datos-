@@ -8,5 +8,5 @@ Prácticas del curso de estructuras de datos ESCOM con el profesor Cristian Ávi
   <li>3 Árbol (RIP)</li>
   <li>4 Ocho reinas</li>
   <li>5 Torres de Hanoi</li>
-  <li>6 Memoria (not mine tho) </li>
+  <li>6 Memoria </li>
 </ul>
