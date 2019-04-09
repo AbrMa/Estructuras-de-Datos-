@@ -8,6 +8,8 @@ void prueba( Cola *cola );
 
 int main( )
 {
+	time_t t;
+	srand((unsigned) time(&t));
 	Cola cola;
 	crearCola( &cola );
 	milVecesMeterQuitar( &cola ); 
@@ -39,6 +41,7 @@ void milVecesMeterQuitar( Cola* cola )
 			i++;
 			meter--;
 		}
+		else
 		{
 			if ( !colaVacia( *cola ) )
 			{
@@ -53,5 +56,14 @@ void milVecesMeterQuitar( Cola* cola )
 			}
 		}
 	
+	}
+
+	while ( eliminar )
+	{
+
+		temp = quitar( cola );
+		printf( "POP\t%d\t%d\tEliminado de la cola\n", j+1, temp );
+		j++;
+		eliminar--;
 	}
 }
