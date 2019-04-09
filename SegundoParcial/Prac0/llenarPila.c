@@ -73,6 +73,13 @@ void milVecesMeterQuitar( Nodo** pila )
 				printf( "\nPILA VACÍA, SE VUELVE A TIRAR MONEDA\n\n" );
 			}
 		}
-	
+	}
+
+	while ( eliminar )
+	{
+		temp = quitar( pila ); 
+		printf( "POP\t%d\t%d\tEliminado de la pila\n", j+1, temp );
+		j++;
+		eliminar-;
 	}
 }
