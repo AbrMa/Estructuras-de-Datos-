@@ -80,6 +80,6 @@ void milVecesMeterQuitar( Nodo** pila )
 		temp = quitar( pila ); 
 		printf( "POP\t%d\t%d\tEliminado de la pila\n", j+1, temp );
 		j++;
-		eliminar-;
+		eliminar--;
 	}
 }
